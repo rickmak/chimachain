@@ -1,10 +1,18 @@
 accounts:
-  - name: alice
-    coins: ["20000token", "200000000stake"]
-  - name: bob
-    coins: ["10000token", "100000000stake"]
+  - name: rickmak
+    coins: ["20000token", "100000000stake"]
+  - name: hochiw
+    coins: ["20000token", "100000000stake"]
+  - name: cheungpat
+    coins: ["20000token", "100000000stake"]
+  - name: chihimng
+    coins: ["20000token", "100000000stake"]
+  - name: limouren
+    coins: ["20000token", "100000000stake"]
+  - name: overflow
+    coins: ["200000token", "100000000stake"]
 validator:
-  name: alice
+  name: rickmak
   staked: "100000000stake"
 client:
   openapi:
@@ -12,5 +20,5 @@ client:
   vuex:
     path: "vue/src/store"
 faucet:
-  name: bob
+  name: overflow
   coins: ["5token", "100000stake"]
